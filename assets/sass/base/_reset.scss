@@ -1,0 +1,19 @@
+
+img {
+    // max-width: 100%;
+    display: block;
+  }
+  
+  button,
+  a {
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
+    
+  }
+  ul,li {
+    list-style: none;
+  }

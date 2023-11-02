@@ -1,0 +1,22 @@
+// Desktop First
+$max-mobile-w: 46.1875em;
+$max-tablet-w: 63.9375em;
+$min-tablet-w: 46.25em;
+
+@mixin tablet_and_mobile {
+  @media screen and (max-width: $max-tablet-w) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $max-tablet-w) and (min-width: $min-tablet-w) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $max-mobile-w) {
+    @content;
+  }
+}

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyochon</title>
+    
+    <!--Begin: SEO -->
+   
+
+    <meta name="title" content="The KyoChon" />
+    <meta
+      name="description"
+      content="This is the band project sample for my student"
+    />
+    <meta property="og:locale" content="vi" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The Band" />
+    <meta
+      property="og:description"
+      content="This is the band project sample for my student"
+    />
+    <meta
+      property="og:url"
+      content="https://tran-quyen.github.io/the-band-clone-hieu/"
+    />
+    <meta property="og:site_name" content="The Band" />
+    <meta
+      property="og:image"
+      content="https://tran-quyen.github.io/the-band-clone-hieu/assets/images/band/member.jpg"
+    />
+    <!-- End: SEO -->
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Bootstrap 5.0.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Nanum+Gothic&family=Oswald&display=swap" rel="stylesheet">
+ 
+<!-- Slider -->
+<link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <!-- Swiper -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+ <!-- Custom -->
+ <link rel="stylesheet" href="./assets/css/main.min.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <div id="Kyochon" class="container-fluid">
+    <div id="header" class="row ">
+      <div class="col col-lg-5 col-ms-6 nav-left">
+        <span>
+          <ul>
+            <li onclick=showSidebar() ><i class="fa-solid fa-bars"></i></li>
+          </ul>
+          <ul class="sidebar scrollable-content">
+            <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+
+              <li><a href="#">About Us</a></li>
+              <li><a href="./menu.html">Menu</a></li>
+              <li><a href="./location.html">Locations</a></li>
+              <li><a href="./loyaltyProgramme.html">Loyalty Programme</a></li>
+              <li><a href="./cash-voucher.html">cash voucher</a></li>
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Halal</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Catering</a></li>
+              <li><a href="#">Order Online</a></li>
+              <li><a href="#"> <i class="fa-solid fa-chevron-right"></i>Delivery</a></li>
+              <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i> Delivery</a></li>
+              <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i>  GrabFood</a></li>
+              <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i> ShopeeFood</a></li>
+              <!-- <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li> -->
+          </ul>
+        
+
+        </span>
+        <button class="btn-base-menu" style="width:18rem" ;>
+          <span style="width: 100%;" >  <i class="fa-solid fa-utensils" style="padding: 7px;"></i>
+            explore our menu
+          </span>
+          
+        </button>
+      </div> 
+      <div class="col col-lg-2">
+        <img src="./assets/images/header/kyochon-logo-korea.png" alt="hnhanhlogo">
+      </div>   
+      <div class="col col-lg-5  nav-right">
+        <a>
+           <i class="fa-solid fa-location-dot" ></i>
+             locations
+          </a>
+        <button class="btn-base btn-oder">
+            <span style="width: 100%;">  <i class="fa-solid fa-bag-shopping" style="padding: 2px;"></i>
+              order online
+            </span>
+        </button>
+      </div>  
+        </div>
+        <script>
+          function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='flex'
+          }
+          function hideSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display ='none'
+          }
+          </script>
+  </div>
+  <!-- CONTENT -->
+            <!-- SLIDER -->
+<div class="content " >
+  <div class="row  " >
+      <div class=" col  image-slider">
+    <div class=" col  image-item">
+      <div class="image img-fluid">
+        <img src="./assets/images/slider/bg-about.jpg" alt="hinhanhmonan">
+      </div>
+    </div>
+    <div class=" col  image-item">
+      <div class="image">
+        <img src="./assets/images/slider/bg-header-menu.jpg" alt="hinhanhmonan">
+      </div>
+    </div>
+    <div class=" col image-item">
+      <div class="image">
+        <img src="./assets/images/slider/kyochon-red-pepper-featured-1.jpg" alt="hinhanhmonan">
+      </div>
+    </div>
+    <div class=" col  image-item">
+      <div class="image">
+        <img src="./assets/images/slider/KyoChon_Boneless-Series_Website-Banner-Layered.jpg" alt="hinhanhmonan">
+      </div>
+    </div>
+    <div class=" col  image-item">
+      <div class="image">
+        <img src="./assets/images/slider/Meat-Free-group-horizontal-v2.jpg" alt="hinhanhmonan">
+      </div>
+    </div>
+    <div class="col  image-item">
+      <div class="image">
+        <img src="./assets/images/slider/shinhwa-new-menu.jpg" alt="hinhanhmonan">
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /// Phan sdier nho -->
+<div class="row ">
+  <div class=" col col-lg-12 banner-slider">
+    <div class="image-item">
+        <div class="image">
+          <img src="./assets/images/banner/F39A76E7-6C8A-49A1-B82F-45DADDC1E96A-uai-360x360.jpeg" alt="hinhanhmonan">
+        </div>
+      </div>
+      <div class="image-item">
+        <div class="image">
+          <img src="./assets/images/banner/Free-Cup-Bap-01-uai-360x360.jpg" alt="hinhanhmonan">
+        </div>
+      </div>
+      <div class="image-item">
+        <div class="image">
+          <img src="./assets/images/banner/KyoChon-14th-Promo_BYOD-uai-360x360.jpg" alt="hinhanhmonan">
+        </div>
+      </div>
+      <div class="image-item">
+        <div class="image">
+          <img src="./assets/images/banner/kyochon-1991-party-cooler-bag-uai-360x360.jpg" alt="hinhanhmonan">
+        </div>
+      </div>
+      <div class="image-item">
+        <div class="image">
+          <img src="./assets/images/banner/KyoChon_Boneless-Series_Carousel-Banner-uai-360x360.jpg" alt="hinhanhmonan">
+        </div>
+      </div>
+      <div class="image-item">
+        <div class="image">
+          <img src="./assets/images/banner/SeniorCitizen_Specials-01-01-featured-300x300.jpg" alt="hinhanhmonan">
+        </div>
+      </div>
+    </div>
+</div>
+ <!-- phan About US --> 
+   <div class="aboutUs " style="margin-top: 100px;">
+        <div class="row  ">
+          <div class="col col-lg-7 " style="box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; margin-left:20px;margin-right: 30px;; border-radius: 10px;"; >
+              <div class="row">
+                <div class="col-lg-6"></div>
+                <div class="row title-abouUs-right ">
+                  <div class="col col-lg-8 col-ms-12  title-abouUs">
+                       <h3>THREE PROMISES</h3>
+                       <h4>세가지 약속</h4>
+                       <span class="light"></span> 
+                  </div>
+                  <div class="col col-lg-4 col-ms-12 image-abouUs" >
+                       <img src="./assets/images/aboutUs/icon-ceo-signature.png" alt="hinhanhceo">
+                  </div>
+                </div>
+              </div>
+              <div class="row" >
+        <div class="col col-4" >
+          <span class="count-list-aboutUs">1</span>
+          <p>We use only the finest ingredients.</p>
+        </div>
+        <div class="col col-4">
+          <span class ="count-list-aboutUs">2</span>
+          <p>We encourage and support the healthy lifestyle of our customers.
+            icon
+            We pursue perfection in every fried chicken we make.</p>
+        </div>
+        <div class="col col-4">
+          <span class ="count-list-aboutUs">3</span>
+          <p>We pursue perfection in every fried chicken we make.</p>
+        </div>
+      </div>
+          </div>
+          <div class="col col-lg-4 title-abouUs-left ">
+            <h3>DID YOU KNOW?</h3>
+            <span class="light"></span> 
+            <p>
+              To study the joy of taste everywhere in Korea, Kyochon was born in Gumi, South Korea, in 1991.
+            </p>
+            <h6>“Kyochon” has been chosen as our name to express the Korean styled impression.</h6>
+             <button class="btn-base btn-red  " style="width: 10rem; font-size: 10px; height: 3.6rem;" >Our Story</button>
+          </div>
+      </div>
+     
+    </div>
+    <!-- phần List_menu -->
+
+    <div class="row swiper-menu">
+      <h3 class="text-center ">EXPLORE OUR SIGNATURE MENU</h3>
+      <span class="light"></span>
+      <div class="col col-lg-12">
+          <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide--one">
+          </div>
+          <div class="swiper-slide swiper-slide--two">
+          </div>
+          <div class="swiper-slide swiper-slide--three">
+          </div>
+          <div class="swiper-slide swiper-slide--four">
+          </div>
+          <div class="swiper-slide swiper-slide--five">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-center  my-5 ">
+      <button class="btn-base btn-black" style="height: 40px;">explore Full Menu</button>
+    </h2>
+    <!--  restaurant list -->
+    <div class="row place-kyochon">
+      <div class="col col-lg-4 " >
+       <h3 style="margin-left: 30px; color: white;" >FIND OUTLETS
+        NEAR YOU</h3>
+        <span class="light" style="margin-left: 30px; background-color: var(--bgc-button);"></span>
+        </div>
+        <div class="col col-lg-8  ">
+          <div class="row ">
+              <ul class="col  col-lg-3 ">
+                <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Kuala Lumpur</a></li>
+                <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Pulau Pinang</a></li>
+                <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Putrajaya Nilai Klang</a></li>
+            </ul>
+            <ul class="col  col-lg-3 ">
+              <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Petaling Jaya</a></li>
+              <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Pahang</a></li>
+              <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Nilai</a></li>
+          </ul>
+          <ul class="col  col-lg-3">
+            <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Kajang</a></li>
+            <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Shah Alam </a></li>
+            <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Klang</a></li>
+        </ul>
+        <ul class="col  col-lg-3 ">
+          <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Johor</a></li>
+          <li><i class="fa-brands fa-creative-commons-zero"></i><a href="">Puchong </a></li>
+          
+      </ul>
+          </div>
+      </div>
+    </div>
+    <!-- PROMOTIONS & UPDATES  -->
+    <div class="upadte-menu">
+      <h3 class="text-center " style=" color: var(--bgc-button);">
+        PROMOTIONS & UPDATES
+      </h3>
+      <div class="row ">
+        <div class="col col-lg-5 card" >
+          <div class="row  ">
+            <div class="col-lg-4">
+              <img src="./assets/images/menu details/Free-Cup-Bap-01-uai-360x360 (1).jpg" class="img-fluid photo-banner" alt="hinhanhquangcao">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">FREE “Boneless Chicken Cup-Bap / Salad Cup and a Drink” dea</h4>
+                <p class="card-text">FREE Boneless Chicken Cup-Bap/ Salad Cup and a drink when you spend a minimum of RM70 on a single receipt.</p>
+                <button class=" btn btn-promo">Promotions</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col col-lg-5  card">
+          <div class="row ">
+            <div class="col-lg-4">
+              <img src="./assets/images/menu details/KyoChon_Boneless-Series_Carousel-Banner-uai-360x360.jpg" class="img-fluid  photo-banner" alt="hinhanhchiectui">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">Zero Bones, All Chikin! Introducing the new Boneless Chicken Series!</h4>
+                <p class="card-text">Experience the same Korean Chicken authenticity without the bones!</p>
+                <button class=" btn btn-promo">Promotions</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-5 card ">
+          <div class="row  ">
+            <div class="col-lg-4">
+              <img src="./assets/images/menu details/SeniorCitizen_Specials-01-01-featured-uai-360x360.jpg" class="img-fluid   photo-banner" alt="hinhanhmonan">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">Free Korean Tea for Senior Citizens</h4>
+                <p class="card-text">Korean teas are FREE with any food item for senior citizens aged 55 years and above.</p>
+                <button class=" btn btn-promo">Promotions</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col col-lg-5 card">
+          <div class="row ">
+            <div class="col-lg-4">
+              <img src="./assets/images/menu details/kyochon-1991-party-cooler-bag-uai-360x360.jpg" class="img-fluid photo-banner" alt="hinhanhgaran">
+            </div>
+            <div class="col-lg-8">
+              <div class="card-body">
+                <h4 class="card-title">Enjoy RM2 OFF with KyoChon 1991 Party Cooler Bag for In-store Takeaways</h4>
+                <p class="card-text">Great for carrying all your orders in one with the two-compartment, KyoChon 1991 Party Cooler Bag! 🥰</p>
+                <button class=" btn btn-promo">Promotions</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-center  my-5 ">
+      <button class="btn-base btn-black">view All News</button>
+    </h2>
+<!-- text _ photograper -->
+<div class=" restaurant-description">
+  <h5 >KyoChon 1991 Korean Fried Chicken, Perfection In Every Bite</h5>
+  <p>At KyoChon 1991, we’re passionate about bringing you the best Korean fried chicken made with the freshest and finest ingredients nature has to offer, all made with our secret recipe that has been delivering deliciousness since 1991. Far from being just another fast food joint, we’re a full-service restaurant that aims to make your dining experience the best possible one with a feast of truly authentic Korean flavours that will keep you coming back for more.</p>
+  <p> While many may know us for our pursuit of perfection in every fried chicken we make, our menu extends to more than just expertly-fried tender, juicy morsels of chicken. KyoChon 1991’s menu also includes a selection of appetisers, sides, a la carte dishes and meat-free options of must-have Korean dishes. Of course, no KyoChon 1991 meal is complete without refreshing beverages to complement the mouthwatering spread and a gut-healthy range of frozen yoghurt ice creams to end the meal on a sweet note, so be sure to get your share of both for a meal that your taste buds and tummy will thank you for!</p>
+  <p>If our ample assortment of dishes have you undecided on what to feast on, our combos will take the guesswork out of mealtimes. Take your pick from thoughtfully selected combinations of dishes tailored to suit the size of your group. We even have a kid-friendly combo made especially for your little ones too!</p>
+  <p> At KyoChon 1991, every ingredient that goes into your food has been carefully prepared from farm to plate, which aligns with our philosophy of providing our customers with healthy, delicious food that’s made using only the freshest and highest-quality ingredients. We’re also committed to avoiding the use of additives and MSG, so we can focus on allowing the freshness of the ingredients such as our chilled, antibiotic- and hormone-free broiler chickens and naturally harvested spices to shine through instead. The result? Korean fried chicken and Korean street food favourites with a taste that you can trust.</p>  </p> 
+   <p>KyoChon 1991, the home to the tender, succulent Korean fried chicken. Come taste the authentic flavours of Korea today at a KyoChon 1991 near you!</p>
+</div>
+
+
+<!-- Footer -->
+<footer class="row">
+  <div class="col col-lg-4 col-ms-12 info-right">
+    <ul>
+      <li><a href="">About Us</a></li>
+      <li><a href=""> Menu</a></li>
+      <li><a href=""> Locations</a></li>
+      <li><a href="">Sitemap</a></li>
+    </ul>
+    <ul>
+      <li><a href="">Menu</a></li>
+      <li><a href=""> Careers</a></li>
+      <li><a href="./cash-voucher.html">Cash Voucher</a></li>
+    </ul>
+    <ul></ul>
+  </div>
+  <div class="col col-lg-5 col-ms-12 contact">
+    <h4>NEWSLETTER</h4>
+    <div class="list-contact">
+        <input type="text" placeholder="Enter your email address">
+        <button class=" btn-base btn-black  btn-sign">Sign up Now</button>
+    </div>
+    <ul>
+        <li><a href="">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          
+           mykyochon</a></li>
+        <li><a href="">
+          <i class="fa-brands fa-twitter"></i>
+          KyochonMalaysia</a></li>
+        <li><a href="">
+          <i class="fa-solid fa-envelope"></i>
+          info@kyochon.com.my</a></li>
+    </ul>
+   
+  </div>
+  <div class="col col-lg-3 col-ms-12 logo-footer">
+    
+      <img src="./assets/images/header/kyochon-logo-korea.png" alt="hinhlogo">
+    
+    <h6>
+      © 2023 KYOCHON SDN. BHD. (1024708-D)</h6>
+      <p><a href="">Terms & Conditions
+ 
+        Privacy Policy</a></p>
+        <span>
+          <a href="" class="btn-top fs-3">
+            <i class="fa-solid fa-chevron-up"></i>
+          </a>
+        </span>
+  </div>
+</footer>
+ <!-- show/hide navbar -->
+ <!-- <script src="./assets/js/navbar.js"></script> -->
+<!-- import Slick Slider -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/app.js">
+    </script>
+      <script src="./assets/js/sider_banner.js">
+      </script>
+      <!-- Swiper -->
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+       <script  src="./assets/js/script.js"></script>
+     
+</body>
+</html>

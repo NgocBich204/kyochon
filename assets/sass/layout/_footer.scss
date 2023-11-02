@@ -1,0 +1,108 @@
+footer {
+    background-color: #ebe6df;
+    
+     .info-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        //  border: 1px solid black;
+         ul{
+           height: 12rem;
+            >li{
+               
+                font-weight:900;
+           padding: 7px;
+           a{
+            color: black;
+           }
+           
+         }
+         }
+         ul:last-child{
+            height: 19rem;
+              margin-left: 70px;
+              border-right: 1px solid black;
+         }
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: start;
+    line-height: 40px;
+    
+
+        h4{ 
+            margin-top: 40px;
+            font-weight: 800;
+            color: var(--bgc-button);
+            letter-spacing: 2px;
+            margin-bottom: 40px;
+        }
+        .list-contact{
+            display: flex;
+          
+            position: relative;
+            input{
+                width: 360px;
+                height: 40px;
+                background-color:#ffffff;
+                border-radius:30px;
+                color:#281c18;
+                font-size:14px;
+                text-align:left;
+                // margin-bottom: 20px;
+            }
+            .btn-sign{
+                display:block;
+                text-align: center;
+                align-items: center;
+                position: absolute;
+                width: 120px;
+                height: 30px;
+                line-height: 30px;
+                right:10px;
+                top:11%;
+              
+            }
+        }
+        ul{
+           padding-left: 0;
+           display: flex;
+            >li{
+                padding: 5px;
+                i{  font-size: 15px;
+                    margin-right: 6px;
+                }
+                a{
+                    color: #281c18;
+                }
+            }
+        }
+}
+}
+.logo-footer{
+       margin-top: 70px;
+        img{
+            width: 180px;
+             height: 65px;
+             margin-bottom: 20px;
+        }
+        h6{
+            margin-bottom: 20px;
+        }
+        p{
+            a{
+        color: #281c18;
+        font-size: 10px;
+            }
+        }
+        span>a{
+           width: 30px;
+           height: 30px;
+           float: right;
+        }
+    
+    
+    
+}

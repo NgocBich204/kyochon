@@ -1,0 +1,117 @@
+
+/// cac thuộc tinh chung cua button 
+.btn-base {
+    width: 15rem;
+        height: 3.2rem;
+        background-color: var(--bgc-button);
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        // line-height: 14px;
+        border-radius: 140px;
+        font-size: 10px;
+        color: white;
+        font-weight: 600;
+
+}
+.btn-base-menu {
+    width: 15rem;
+    height: 3.2rem;
+    color: var(--bgc-button);
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    // line-height: 14px;
+    border-radius: 140px;
+    border: 1px solid var(--bgc-button);
+    font-size: 10px;
+    // color: white;
+    font-weight: 600;
+}
+
+.btn-base-menu:hover {
+    transition: 0.6s;
+    background-color: #fff;
+    border: 1px solid var(--bgc-button);
+    color: var(--bgc-button);
+    
+}
+/// khi responsive ve mobile se mat 
+.btn-base-menu {
+        @include mobile {
+            display:none ;
+          }
+    }
+
+
+.btn-oder:hover{ 
+    
+    transition: 0.6s;
+    background-color: #fff;
+    border: 1px solid var(--bgc-button);
+    color: var(--bgc-button);
+}
+
+/// button khi hover thanh  đỏ thành trắng 
+.btn-red {
+    background-color:
+    #ba3338 ;
+    color: #fff;
+}
+
+.btn-red:hover{
+    transition: 0.6s;
+    background-color: #fff;
+    border: 1px solid var(--bgc-button);
+    color: var(--bgc-button);
+}
+// btn khi hover thanh mau den thành trắng 
+.btn-black{
+    background-color: #281c18 ;
+    color: #fff;
+    
+
+
+}
+.btn-black:hover{
+    transition: 0.6s;
+    background-color: #fff;
+    border: 1px solid var(--bgc-button);
+    color: var(--bgc-button);
+}
+// button khi hover thanh mau vang trắng 
+.btn-top {
+   
+   color: #fff;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: black;
+    // btn  đi len đau trang 
+}
+.btn-promo {
+    width: 7.5rem;
+    height: 2rem;
+    background-color: #c7c0b0;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    
+    border-radius: 5px;
+    font-size: 6px;
+    color: white;
+    font-weight: 600;
+    // hàng loạt phan aboutUS
+}
+// .btn-oder{
+//     width: 15rem;
+//     height: 3.2rem;
+//     background-color: var(--bgc-button);
+//     text-transform: uppercase;
+//     letter-spacing: 1.4px;
+//     // line-height: 14px;
+//     border-radius: 140px;
+//     font-size: 10px;
+//     color: white;
+//     font-weight: 600;
+//     background-color: var(--bgc-button);
+
+// }
