@@ -398,6 +398,15 @@ footer .contact ul > li a {
   background: black;
 }
 
+.light_cashvouher {
+  display: block;
+  text-align: center;
+  width: 60px;
+  height: 2px;
+  background-color: rgb(216, 195, 8);
+  margin: 0 auto;
+}
+
 .count-list-aboutUs {
   text-align: center;
   list-style: 30px;
@@ -776,4 +785,45 @@ footer .contact ul > li a {
   padding-inline: 20px;
   line-height: 21px;
   margin-bottom: 30px;
+}
+
+.conten_cashvoucher .text-form {
+  margin-top: 6rem;
+  text-align: center;
+}
+.conten_cashvoucher .text-form h1 {
+  font-weight: 700;
+  padding: 10px;
+}
+.conten_cashvoucher .text-form p {
+  margin-block: 15px;
+}
+.conten_cashvoucher form {
+  margin-block: 5rem;
+  margin-inline: 15rem;
+}
+.conten_cashvoucher form .form-row {
+  margin-block: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  white-space: nowrap;
+  border-radius: 4rem;
+}
+.conten_cashvoucher form .form-row input, .conten_cashvoucher form .form-row select {
+  color: black;
+  border-color: orange;
+  border-radius: 20px;
+}
+.conten_cashvoucher form .form-row .form-group .form-control {
+  padding: 10px;
+}
+.conten_cashvoucher .btn-login {
+  margin-top: 20px;
+  width: 300px;
+  height: 40px;
+  font-size: 1rem;
+  margin-inline: 30rem;
 }

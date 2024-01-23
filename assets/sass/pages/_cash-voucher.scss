@@ -1,0 +1,46 @@
+.conten_cashvoucher {
+    .text-form{
+        margin-top: 6rem;
+        text-align: center;
+        h1{
+            font-weight: 700;
+            padding: 10px;
+        }
+        p{
+            margin-block: 15px;
+        }
+    }
+    form {
+    margin-block: 5rem;
+    margin-inline: 15rem;
+       .form-row{
+        
+        input,select{
+            color: black;
+           border-color: orange;
+            border-radius: 20px;
+        }
+        margin-block: 20px;
+        display:flex;
+        flex-wrap: nowrap;
+        white-space: nowrap; 
+        border-radius: 4rem;
+        .form-group{
+           
+           .form-control {
+            padding: 10px;
+           }
+            
+        }
+        
+       }
+    }
+  .btn-login{
+  margin-top: 20px;
+    width: 300px;
+    height: 40px;
+ font-size: 1rem;
+    margin-inline: 30rem;
+  }
+
+}

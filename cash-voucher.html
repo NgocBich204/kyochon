@@ -145,26 +145,66 @@
   </div>
   <!-- CONTENT -->
             <!-- SLIDER -->
-<div class="content " >
+<div class="conten_cashvoucher " >
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src="./assets/images/banner/bg-header-menu.jpg" class="d-block w-100" alt="hinhanhmenu">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Cash Voucher </h1>
+             <span  style=" font-weight: bold; color: white;font-size: 4rem; letter-spacing: 2px;">Cash Voucher</span>
+             <p class="light_cashvouher"></p>
             </div>
           </div>
         </div>
       </div>
       <!--  form  -->
-       <h1>PURCHASE CASH VOUCHER</h1>
-       <p></p> // thanh ngang 
-       <p>Voucher is accepted at selected KyoChon Malaysia outlets.</p>
-       <button>
-        Voucher location List
-       </button>
-       <p>We will get back to you within 1 working day.</p>
-       <form action="" id=""></form>
+        <div class="text-form">
+           <h1 >PURCHASE CASH VOUCHER </h1> 
+              <p class="light_cashvouher "></p> 
+              <p>Voucher is accepted at selected KyoChon Malaysia outlets.</p>
+              <button class="btn-base btn-black " style="font-size: 8px; font-weight: 600; margin-bottom: 20px;">
+                Voucher location List 
+              </button>
+              <p>We will get back to you within 1 working day.</p>
+        </div>
+              <!-- Form  -->
+              <form >
+                <div class="form-row">
+                  <label >"*" indicates required fields</label>
+                </div>
+                <div class="form-row ">
+                  <div class="form-group col-md-6 p-2 ">
+                    <input type="yourname" class="form-control" id="yourname" placeholder="Your Name">
+                    
+                  </div>
+                  <div class="form-group col-md-6 p-2">
+                    <input type="password" class="form-control" id="Email_Address" placeholder="Your Email Address">
+                  </div>
+                </div>
+                <div class="form-group p-2" >
+                  <input style="padding: 10px; border-radius: 20px; border-color: orange; color: black;" type="text" class="form-control" id="contact" placeholder="Your Contact Number">
+                </div>
+                <div class="form-row ">
+                  <div class="form-group  col-md-6 p-2">
+                  <select id="select_voucher" class="form-control" >
+                    <option selected >Select voucher Denomination</option>
+                    <option>Select voucher Denomination</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                  </select>
+                  </div>
+                  <div class="form-group col-md-6 p-2 ">
+                    <input type="text" class="form-control" id="Quantity" placeholder="Quantity">
+                  </div>
+                </div>
+                <div class="form-group p-2">
+                  <textarea class="form-control" style=" padding: 20px;  border-color: orange; color: black;" rows="3" placeholder="Your enquiry or message here"></textarea>
+                </div>
+                <button type="submit" class=" btn btn-base-menu btn-black btn-login ">submit</button>
+              </form>
+     
+ 
+       
 
     <!--  restaurant list -->
     <div class="row place-kyochon">
