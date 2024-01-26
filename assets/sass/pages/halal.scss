@@ -1,0 +1,19 @@
+
+.content_halal{  
+        
+    .row{
+
+        display: flex;
+         align-items: center;
+         justify-content: center;
+         .img_halal{
+            img {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+         }
+    }
+}
+
+// .text_halal
