@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .content_halal .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,13 +14,102 @@
           justify-content: center;
 }
 .content_halal .row .img_halal img {
+  margin: 15px auto;
+  padding: 20px;
+}
+.content_halal .row .text_halal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  padding-inline: 3rem;
+  line-height: 35px;
+}
+.content_halal .row .text_halal h3 {
+  text-align: center;
+  font-weight: 700;
+}
+.content_halal .row .text_halal h4 {
+  font-size: medium;
+}
+.content_halal .row .place_res .button_place {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: auto;
+}
+.content_halal .row .place_res .button_place i {
+  margin: auto;
+  font-size: 2rem;
+  color: white;
+}
+.content_halal .row .place_res .button_place:hover {
+  background-color: rgb(148, 147, 147);
+}
+.content_halal .row .place_res .link {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+}
+.content_halal .row .place_res .list_place {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-inline: 350px 100px;
+  border: 1px solid #6e6c6c;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.content_halal .row .place_res .list_place .Selangor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  left: 0;
+  border-bottom: 1px solid #6e6c6c;
+}
+.content_halal .row .place_res .list_place .Selangor .selanhor_left {
+  width: 160px;
+  padding-left: 10px;
+  background-color: #f3f3f3;
+  border-right: 1px solid #6e6c6c;
+}
+.content_halal .row .place_res .list_place .Selangor .selanhor_right {
+  padding-left: 10px;
+  display: block;
+  width: 334px;
+  text-align: left;
+}
+.content_halal .row .place_res .list_place .Selangor .selanhor_right li {
+  list-style-type: square;
+}
+.content_halal .row .place_res .list_place .Selangor .selanhor_right p {
+  padding: 5px;
+  background-color: #758111;
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.content_halal .row .place_res .list_place .Selangor .selanhor_right .orang {
+  background-color: #f7941d;
+  color: #fff;
 }

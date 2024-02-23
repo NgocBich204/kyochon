@@ -8,26 +8,24 @@
     <!--Begin: SEO -->
    
 
+
     <meta name="title" content="The KyoChon" />
     <meta
       name="description"
-      content="This is the band project sample for my student"
+      content="This is kyocho my first project"
     />
     <meta property="og:locale" content="vi" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="The Band" />
+    <meta property="og:type" content="chicken" />
+    <meta property="og:title" content="kyochon" />
     <meta
       property="og:description"
-      content="This is the band project sample for my student"
+      content="This is my first project"
     />
     <meta
       property="og:url"
-      content="https://tran-quyen.github.io/the-band-clone-hieu/"
+      content="https://github.com/NgocBich204/kyochon.git"
     />
-    <meta property="og:site_name" content="The Band" />
-    <meta
-      property="og:image"
-      content="https://tran-quyen.github.io/the-band-clone-hieu/assets/images/band/member.jpg"
+    <meta property="og:site_name" content="kyocho" />
     />
     <!-- End: SEO -->
 
@@ -77,6 +75,12 @@
 
  <!-- Custom -->
  <link rel="stylesheet" href="./assets/css/main.min.css" />
+ <style>
+  /* CSS để ẩn danh sách địa chỉ ban đầu */
+  .list_place {
+    display: none;
+  }
+</style>
 </head>
 <body>
   <!-- HEADER -->
@@ -94,7 +98,7 @@
               <li><a href="#">Menu</a></li>
               <li><a href="./location.html">Locations</a></li>
               <li><a href="#">Latest News</a></li>
-              <li><a href="#">Halal</a></li>
+              <li><a href="./halal.html">Halal</a></li>
               <li><a href="#">Careers</a></li>
               <li><a href="#">FAQ</a></li>
               <li><a href="#">Contact Us</a></li>
@@ -154,47 +158,170 @@
         </div>
       </div>
      </div>
-
 <div class="content_halal">
   <div class="row">
     <div class="col-lg-12 img_halal">
       <img src="./assets/images/halal/halal-logo-2.png" alt="pictuer logo">
     </div>
-    <div class="col-lg-12 text_halal">
-      <h3>Janji Dan Polisi Halal Kami</h3>
-      <h5>KYOCHON SDN BHD prihatin terhadap keperluan pemakanan khas bagi umat Islam di Malaysia dan 100% komited untuk:</h5>
-      <p>Menghasilkan, mengedar dan membekalkan produk makanan secara konsisten yang mematuhi keperluan dan peraturan halal
-        terkini yang ditetapkan oleh Jabatan Kemajuan Islam Malaysia (JAKIM).
-      </p>
-      <p>
-        Memastikan semua bahan, sistem pengeluaran, peralatan dapur dan perkakas yang digunakan di restoran kami di Malaysia adalah
-         bersih dan bebas daripada unsur-unsur tidak halal agar pelanggan dapat menikmati hidangan mereka tanpa was-was.
-      </p>
-      <p>
-        Tindakan segera akan diambil terhadap mana-mana pekerja, pembekal dan / atau kontraktor yang didapati melanggar 
-        polisi halal yang telah dipersetujui (secara sengaja atau tidak sengaja).
-      </p>
+    <div class="col-lg-8 text_halal">
+          <h3>Janji Dan Polisi Halal Kami</h3>
+          <h4>SDN BHD prihatin terhadap keperluan pemakanan khas bagi umat Islam di Malaysia dan 100% komited unt</h4>
+          <p>1.Menghasilkan, mengedar dan membekalkan produk makanan secara konsisten yang mematuhi keperluan dan peraturan halal
+            terkini yang ditetapkan oleh Jabatan Kemajuan Islam Malaysia (JAKIM).
+          </p>
+          <p>
+            2.Memastikan semua bahan, sistem pengeluaran, peralatan dapur dan perkakas yang digunakan di restoran kami di Malaysia adalah
+            bersih dan bebas daripada unsur-unsur tidak halal agar pelanggan dapat menikmati hidangan mereka tanpa was-was.
+          </p>
+          <p>
+            3.Tindakan segera akan diambil terhadap mana-mana pekerja, pembekal dan / atau kontraktor yang didapati melanggar 
+            polisi halal yang telah dipersetujui (secara sengaja atau tidak sengaja).
+          </p>
     </div>
-  </div>
+
+<!-- hide menu  -->
+<div class="place_res" >
+  <!-- Button hien -->
+    <button onclick="toggleList()" class="button_place btn-base-menu  btn-base" style="margin-bottom: 20px; background: black; color:#fff"; >
+      <span>Lihat Outlet</span>
+      <i class="fa-solid fa-chevron-down"></i>
+    </button>
+    <span class="link">Sila layari <a href="https://www.halal.gov.my">https://www.halal.gov.my</a> untuk maklumat lanjut.</span>
+    <br>
+    <span class="link" style="margin-bottom: 15px;">Please visit<a href="https://www.halal.gov.my">https://www.halal.gov.my</a> for more information.</span>
+    <!-- Danh sach cac dia diem -->
+    <div class="list_place"  id="addressList" style="margin-bottom: 30px;">
+     <!-- dia diem 1 -->
+     <div class=" Selangor">
+      <div class="selanhor_left">
+        Selangor
+      </div>
+      <div class="selanhor_right">
+        <p>Halal Certified</p>
+        <li>1 Utama Shopping Centre</li>
+        <li>Bandar Botanik Klang</li>
+        <li>Bangi Seksyen 9</li>
+        <li>Central i-City</li>
+        <li>Cheras Traders Square</li>
+        <li>Damansara Perdana</li>
+        <li>IPC Shopping Centre</li>
+        <li>Kuala Lumpur International Airport (KLIA)</li>
+        <li>Prima Sri Gombak</li>
+        <li>Setia City Mall</li>
+        <li>Sunway Pyramid</li>
+        <li>USJ Taipan</li>
+        <p class="orang">In Progress</p>
+        <li>SS2</li>
+        <li>Taman Perindustrian Puchong</li>
+      </div>
+
+ <!-- dia diem 2 -->
+     </div>
+     <div class=" Selangor">
+      <div class="selanhor_left">
+        Kuala Lumpur
+      </div>
+      <div class="selanhor_right">
+        <p>Halal Certified</p>
+        <li>1 Utama Shopping Centre</li>
+        <li>Bandar Botanik Klang</li>
+        <li>Bangi Seksyen 9</li>
+        <li>Central i-City</li>
+        <li>Cheras Traders Square</li>
+        <li>Damansara Perdana</li>
+        <li>IPC Shopping Centre</li>
+        <li>Kuala Lumpur International Airport (KLIA)</li>
+        <li>Prima Sri Gombak</li>
+        <li>Setia City Mall</li>
+        <li>Sunway Pyramid</li>
+        <li>USJ Taipan</li>
+      </div>
+     </div>
+     <!-- dia diem 3-->
+     <div class=" Selangor">
+      <div class="selanhor_left">
+       Putrajaya
+      </div>
+      <div class="selanhor_right">
+        <li>Halal Certified</li>
+        <li>1 Utama Shopping Centre</li>
+      </div>
+       </div>
+          <!-- dia diem 4-->
+           <div class=" Selangor">
+          <div class="selanhor_left">
+           Johor
+          </div>
+          <div class="selanhor_right">
+            <p>Halal Certified</p>
+            <li>1 Utama Shopping Centre</li>
+            <p class="orang">In Progress</p>
+            <li>SS2</li>
+            <li>Toppen Shopping Center</li>
+          </div>
+         </div>
+          <!-- dia diem 5-->
+          <div class=" Selangor">
+           <div class="selanhor_left">
+             Negeri Sembilan
+           </div>
+           <div class="selanhor_right">
+             <p>Halal Certified</p>
+             <li>Aeon Mall Nilai</li>
+             <li>Prima Sri Gombak</li>
+             <li>Setia City Mall</li>
+           </div>
+          </div>
+           <!-- dia diem 6-->
+           <div class=" Selangor">
+             <div class="selanhor_left">
+               Penang
+             </div>
+             <div class="selanhor_right">
+               <p>Halal Certified</p>
+               <li>Sentral Jaya (Bukit Mertajam)</li>
+               <li>East Coast Mall</li>
+             </div>
+            </div>
+                 <!-- dia diem 7-->
+           <div class=" Selangor">
+             <div class="selanhor_left">
+               Pahang
+             </div>
+             <div class="selanhor_right">
+               <p>Halal Certified</p>
+               <li>East Coast Mall</li>
+               <li>Sentral Jaya (Bukit Mertajam)</li>
+             </div>
+            </div>
+    </div>
+        </div>
+       
+
+
+
+
+
+
+
+
+
+
+    </div>
 </div>
-   
 
 
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+</div>
+<script>
+  // JavaScript để hiển thị/ẩn danh sách địa chỉ khi nhấn vào nút
+  function toggleList() {
+    var list = document.getElementById("addressList");
+    list.style.display = (list.style.display === "none") ? "block" : "none";
+  }
+  </script>
+      
 
 <!-- Footer -->
 <footer class="row">
