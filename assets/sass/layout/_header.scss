@@ -4,7 +4,6 @@
     font-size: 18px;
     display: flex;  
     height: 11rem;
-    width: inherit;
     background-color: #fff;
     align-items: center;
     text-align: center; 
@@ -56,7 +55,6 @@
                 z-index: 9999;
                 backdrop-filter: blur(10px);
                 background-color: #ffffffda;
-                // background-color:red;
                 box-shadow: -10px 0 10px rgba(0,0,0,0.1);
                 display: none;
                 flex-direction: column;
@@ -90,8 +88,14 @@
         }
       
     }
- 
-    }
+   
+   
+  
+  
+  }
+
+
+
    
     .col-lg-2{
         align-items: center;
@@ -117,27 +121,154 @@
             font-weight: 600;
         }
     } 
-  //   .nav-right{
-  //       @include mobile {
-            
-  //               display: none;
-            
-  //     } 
 
 
-  //  } 
-//    .nav-right-mobile {
-//       li {
-//         padding: 5px;
-//         font-size: 20px;
-//       }
-//    }
-//    .nav-right-mobile {
-//     @include mobile {
-//         display: block;
-    
-// } 
+#header-moblie{
+   
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;  
+    height: 11rem;
+    background-color: #fff;
+    align-items: center;
+    text-align: center; 
 
-//    }
+    .nav-left{
+      margin-left: 0;
+
+        //  align-items: center;
+        // display: flex;
+        span {
+            display: flex;
+            align-items: center;
+            width: 90px;
+                li{ 
+                    display: flex;
+                    align-items: center;
+                    i{  
+                        color: black;
+                         font-size:2.8rem ;
+                    }
+                   
+                
+            }
+            .sidebar{
+
+                
+                    height: 200px; /* Đặt chiều cao của vùng cuộn */
+                    overflow: auto; /* Kích hoạt thanh cuộn */
+                  
+                  
+                  /* Tùy chỉnh thanh cuộn cho trình duyệt Chrome/WebKit */
+                  .scrollable-content::-webkit-scrollbar {
+                    width: 6px; /* Đặt chiều rộng của thanh cuộn */
+                    height: 2px;
+                  }
+                  
+                  .scrollable-content::-webkit-scrollbar-thumb {
+                    background-color: #eeebeb; /* Màu nền của nút kéo */
+                  }
+                  
+                  .scrollable-content::-webkit-scrollbar-track {
+                    background-color: #f5f4f4; /* Màu nền của thanh trượt */
+                  }
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 100vh;
+                width: 300px;
+                z-index: 9999;
+                backdrop-filter: blur(10px);
+                background-color: #ffffffda;
+                box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+                display: none;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-self: flex-start;
+               li{
+                height: 50px;
+                width: 100%;
+                margin-top: 20px;
+
+                
+                a{
+                    padding: 0 20px;
+                    
+                    color: black;
+                    
+                       .fa-chevron-right{
+                        font-size: 8px;
+                        background-color: rgb(223, 92, 45);
+                        border-radius: 50%;
+                        padding: 5px;
+                        margin-right: 5px;
+                       }
+                
+                }
+                
+               }
+
+        
+            }
+        }
+      
+    }
+   
+   
   
+  
+  }
+
+    .col-lg-2{
+        align-items: center;
+        text-align: center;
+        img {
+            
+            width: 9rem;
+            height: 4rem;
+        }
+     
     
+    }
+    .col-lg-5:last-child{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        a{
+            background-color: none;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-right: 2rem;
+            font-weight: 600;
+        }
+    } 
+
+   
+@media  (max-width:800px ){
+  .col-lg-2 img {
+    margin-left: 50px;
+  }
+}
+// 768px
+#header-moblie {
+
+  width: 768px;
+  display: flex;
+  flex-flow: row ;
+  justify-content: space-between; 
+  .nav-left , .nav-right {
+    display: flex;
+  }
+  .nav-right{
+    margin-left :400px;
+    li{
+      padding:5px;
+      font-size: 12px;
+    }
+  }
+}
+
+
+
+

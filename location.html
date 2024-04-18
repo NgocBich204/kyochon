@@ -80,58 +80,61 @@
 </head>
 <body>
   <!-- HEADER -->
-  <div id="Kyochon" class="container-fluid">
-    <div id="header" class="row ">
-      <div class="col col-lg-5 col-ms-6 nav-left">
-        <span>
-          <ul>
-            <li onclick=showSidebar() ><i class="fa-solid fa-bars"></i></li>
-          </ul>
-          <ul class="sidebar scrollable-content">
-            <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
-
-              <li><a href="./aboutus.html">About Us</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="./location.html">Locations</a></li>
-              <li><a href="#">Latest News</a></li>
-              <li><a href="./halal.html">Halal</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="./cash-voucher.html">cash voucher</a></li>
-              <li><a href="#">Catering</a></li>
-              <li><a href="#">Order Online</a></li>
-              <li><a href="#"> <i class="fa-solid fa-chevron-right"></i>Delivery</a></li>
-              <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i> Delivery</a></li>
-              <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i>  GrabFood</a></li>
-              <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i> ShopeeFood</a></li>
-              <!-- <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li> -->
-          </ul>
-        
-
-        </span>
-        <button class="btn-base-menu" style="width:18rem" ;>
-          <span style="width: 100%;" >  <i class="fa-solid fa-utensils" style="padding: 7px;"></i>
-            explore our menu
+  <div id="Kyochon" class="container-fluid" style ="
+         position: -webkit-sticky;
+         position: sticky;
+         z-index: 100;
+         top: 0";>
+      <header id="header" class="row header-pc uk-visible@m ">
+        <div class="col col-lg-5 col-ms-6 nav-left">
+          <span>
+            <ul>
+              <li onclick=showSidebar() ><i class="fa-solid fa-bars"></i></li>
+            </ul>
+            <ul class="sidebar scrollable-content">
+              <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./location.html">Locations</a></li>
+                <li><a href="./loyaltyProgramme.html">Loyalty Programme</a></li>
+                <li><a href="./cash-voucher.html">cash voucher</a></li>
+                <li><a href="#">Latest News</a></li>
+                <li><a href="halal.html">Halal</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Catering</a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#"> <i class="fa-solid fa-chevron-right"></i>Delivery</a></li>
+                <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i> Delivery</a></li>
+                <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i>  GrabFood</a></li>
+                <li style="margin-left: 10px;"><a href="#"> <i class="fa-solid fa-chevron-right "></i> ShopeeFood</a></li>
+                <!-- <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li> -->
+            </ul>
           </span>
-          
-        </button>
-      </div> 
-      <div class="col col-lg-2">
-        <img src="./assets/images/header/kyochon-logo-korea.png" alt="hnhanhlogo">
-      </div>   
-      <div class="col col-lg-5  nav-right">
-        <a>
-           <i class="fa-solid fa-location-dot" ></i>
-             locations
-          </a>
-        <button class="btn-base btn-oder">
-            <span style="width: 100%;">  <i class="fa-solid fa-bag-shopping" style="padding: 2px;"></i>
-              order online
+          <button class="btn-base-menu" style="width:18rem" ;>
+            <span style="width: 100%;" >  <i class="fa-solid fa-utensils" style="padding: 7px;"></i>
+              explore our menu
             </span>
-        </button>
-      </div>  
-        </div>
+            
+          </button>
+        </div> 
+        <div class="col col-lg-2" >
+          <img src="./assets/images/header/kyochon-logo-korea.png" alt="hnhanhlogo">
+        </div>   
+        <div class="col col-lg-5  nav-right">
+          <a>
+             <i class="fa-solid fa-location-dot" ></i>
+               locations
+            </a>
+          <button class="btn-base btn-oder">
+              <span style="width: 100%;">  <i class="fa-solid fa-bag-shopping" style="padding: 2px;"></i>
+                order online
+              </span>
+          </button>
+        </div>  
+          </header>
+     
         <script>
           function showSidebar(){
             const sidebar = document.querySelector('.sidebar')
